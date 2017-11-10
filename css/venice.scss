@@ -1,0 +1,124 @@
+//通用样式
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+ul,p,h2 {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+//页面开始
+.containe {
+    width: 11rem;
+    margin: 0.5rem auto;
+    border-radius: 0.2rem;
+    background: #f2f2f2;
+    img {
+        width: 70%;
+        height: 100%;
+    }
+    h2 {
+        font-size: 0.2rem;
+        color: #fff;
+        margin-bottom: 0.6rem;
+    }
+    header {
+        width: 9.4rem;
+        margin: 0 auto;
+        padding-top: 0.7rem;
+        div {
+            width: 2.77rem;
+            height: 0.85rem;
+            float: left;
+            margin-bottom: 0.4rem;
+        }
+        ul {
+            float: right;
+            li {
+                float: left;
+                height: 0.85rem;
+                line-height: 0.85rem;
+                padding-left: 0.1rem;
+                a {
+                    font-size: 0.12rem;
+                    color: #808080;
+                }
+            }
+        }
+    }
+    .content {
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        div {
+            width: 10.2rem;
+            height: 4rem;
+            background: #3c424b;
+            margin: 0.15rem 0;
+        }
+        .simon {
+            .simon-left {
+                float: left;
+                padding-left: 0.3rem;
+                margin-top: 0.65rem;
+                width: 25%;
+                height: auto;
+                p {
+                    font-size: 0.08rem;
+                    color: #fc0;
+                }
+            }
+        }
+        .ous {
+            h2 {
+                margin: 0.4rem 1.15rem 0.5rem 0;
+            }
+            .erwm {
+                width: 2.4rem;
+                height: 2.3rem;
+                margin-right: 0.3rem;
+            }
+        }
+        .aside {
+            width: 28%;
+            height: auto;
+            color: #fff;
+            text-align: center;
+            margin-top: 1rem;
+            p {
+                font-size: 0.08rem;
+            }
+        }
+    }
+    footer{
+        width: 80%;
+        height: auto;
+        margin: 0.5rem auto;
+        img{
+            width: 13%;
+            height: 100%;
+            padding-left: 4%;
+        }
+    }
+}
+.show {
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+.shod {
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
